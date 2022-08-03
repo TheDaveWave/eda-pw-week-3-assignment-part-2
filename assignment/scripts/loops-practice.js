@@ -33,6 +33,14 @@ console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 for (let i = 2; i <= 10; i+=2) {
   console.log(i);
 }
+// Or I can change the initialization, condition, and add an if statement inside the for loop.
+console.log('Alternate Solution:');
+for (let i = 2; i <= 10; i++) {
+    if (i % 2 === 0) {
+      console.log(i);
+    }
+}
+
 
 // 1.d. (STRETCH) TODO: Write a for loop to do a countdown from 5 to 0
 console.log('STRETCH: countdown from 5 to 0');
